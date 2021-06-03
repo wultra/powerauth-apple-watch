@@ -30,4 +30,9 @@ Pod::Spec.new do |s|
     #s.test_spec do |ts|
     #  ts.source_files = 'Tests/PowerAuthForWatch/**/*.swift'
     #end
+    
+    # Tweaks
+    s.pod_target_xcconfig   = {
+        'APPLICATION_EXTENSION_API_ONLY' => 'YES'
+    }
 end

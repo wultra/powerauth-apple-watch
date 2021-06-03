@@ -23,3 +23,5 @@ let package = Package(
             dependencies: ["PowerAuthForWatch"]),
     ]
 )
+
+// TODO: limit API to application extensions only
