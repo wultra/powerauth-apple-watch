@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "PowerAuthForWatch",
+    platforms: [
+        .watchOS(.v2)
+    ],
     products: [
         .library(
             name: "PowerAuthForWatch",

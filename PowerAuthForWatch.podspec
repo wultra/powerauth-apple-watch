@@ -21,10 +21,7 @@ Pod::Spec.new do |s|
     
     # Deployment targets
     s.swift_version = '5.3'
-    s.ios.deployment_target  = '9.0'
-    s.tvos.deployment_target = '9.0'
-    s.watchos.deployment_target = '2.0'
-    s.osx.deployment_target = '10.15'
+    s.platform = :watchos, '2.0'
     
     # Sources
     s.source_files          = 'Sources/PowerAuthForWatch/**/*.swift'
